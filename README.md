@@ -11,7 +11,7 @@ A lightweight, containerized static website — Home, About, and Contact pages �
 |------|-------|---------|
 | Nav bar + hero section | Feature cards | Styled contact form |
 
-*(Add your own screenshots here — see `/screenshots` if you include one)*
+
 
 ## 🏗️ Project Structure
 
