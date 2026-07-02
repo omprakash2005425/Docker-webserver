@@ -9,7 +9,7 @@ A lightweight, containerized static website â€” Home, About, and Contact pages â
 
 | Home | About | Contact |
 |------|-------|---------|
-| Nav bar + hero section | Feature cards | Styled contact form |
+
 
 
 
