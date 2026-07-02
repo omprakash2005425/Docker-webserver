@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Dockerized Web App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="brand">🐳 DockerSite</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>About This Project</h1>
+    <p>This site was built to demonstrate core Docker containerization concepts: building a custom image, deploying a web server inside a container, and managing its lifecycle.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>🐳 Containerized</h3>
+        <p>Runs entirely inside an Nginx (Alpine) Docker container — no local web server installed.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Lightweight</h3>
+        <p>The Alpine base image keeps the container under ~10MB of RAM at idle.</p>
+      </div>
+      <div class="card">
+        <h3>❤️ Health-Checked</h3>
+        <p>A built-in HEALTHCHECK continuously verifies the server is responding correctly.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Task 4: Web Server using Docker &mdash; Om Prakash Majhi
+  </footer>
+
+</body>
+</html>
